@@ -7,3 +7,13 @@ This is the official code of RCAlign.
 
 ## News
 [2025/04/24] RCAlign is available on [arXiv](https://arxiv.org/abs/2504.16368).
+
+If you find RCAlign is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+```
+@article{kong2025revisiting,
+  title={Revisiting Radar Camera Alignment by Contrastive Learning for 3D Object Detection},
+  author={Kong, Linhua and Chang, Dongxia and Liu, Lian and Kong, Zisen and Li, Pengyuan and Zhao, Yao},
+  journal={arXiv preprint arXiv:2504.16368},
+  year={2025}
+}
+```
