@@ -5,17 +5,4 @@ This is the official code of RCAlign.
 
 ![image](https://github.com/user-attachments/assets/dd6128ea-4e3f-4bb7-b0d0-2584d77e9dbd)
 
-## News
-[2025/04/24] RCAlign is available on [arXiv](https://arxiv.org/abs/2504.16368).
- 
 
-## Citation
-If you find RCAlign is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
-```
-@article{kong2025revisiting,
-  title={Revisiting Radar Camera Alignment by Contrastive Learning for 3D Object Detection},
-  author={Kong, Linhua and Chang, Dongxia and Liu, Lian and Kong, Zisen and Li, Pengyuan and Zhao, Yao},
-  journal={arXiv preprint arXiv:2504.16368},
-  year={2025}
-}
-```
