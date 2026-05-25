@@ -1,0 +1,40 @@
+# Local IDE/editor state
+.idea/
+.vscode/
+
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Data, checkpoints, and training outputs
+data/
+ckpts/
+checkpoints/
+work_dirs/
+outputs/
+runs/
+wandb/
+exps/
+test/
+docs/
+
+# Large generated artifacts
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.log
+*.log.json
+
+# External/vendor code kept locally
+mmdetection3d/
