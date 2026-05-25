@@ -27,6 +27,7 @@ wandb/
 exps/
 test/
 docs/
+grad-cam/
 
 # Large generated artifacts
 *.pth
