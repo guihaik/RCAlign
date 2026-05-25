@@ -4,8 +4,8 @@
 </div>
 
 <p align="center">
-  <a href="https://arxiv.org/pdf/2504.16368">
-    <img src="https://img.shields.io/badge/arXiv-Paper-red.svg" alt="arXiv">
+  <a href="https://ieeexplore.ieee.org/abstract/document/11523464">
+    <img src="https://img.shields.io/badge/IEEE-Paper-blue.svg" alt="IEEE TCSVT">
   </a>
 </p>
 
