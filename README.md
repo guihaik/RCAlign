@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://ieeexplore.ieee.org/abstract/document/11523464">
-    <img src="https://img.shields.io/badge/IEEE-Paper-blue.svg" alt="IEEE TCSVT">
+    <img src="https://img.shields.io/badge/IEEE%20TCSVT-Paper-blue.svg" alt="IEEE TCSVT">
   </a>
 </p>
 
