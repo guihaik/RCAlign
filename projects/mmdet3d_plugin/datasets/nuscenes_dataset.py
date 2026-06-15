@@ -282,7 +282,6 @@ class CustomNuScenesDataset(NuScenesDataset):
         """
         from nuscenes import NuScenes
         from nuscenes.eval.detection.evaluate import NuScenesEval
-        from .CusNuScenesEval import CusNuscenesEval
         from os import path as osp
         import mmcv
 
@@ -293,24 +292,13 @@ class CustomNuScenesDataset(NuScenesDataset):
             'v1.0-mini': 'mini_val',
             'v1.0-trainval': 'val',
         }
-        if 'split_name' not in self.metadata.keys():
-            nusc_eval = NuScenesEval(
-                nusc,
-                config=self.eval_detection_configs,
-                result_path=result_path,
-                eval_set=eval_set_map[self.version],
-                output_dir=output_dir,
-                verbose=False)
-        else:
-            nusc_eval = CusNuscenesEval(
-                nusc,
-                config=self.eval_detection_configs,
-                result_path=result_path,
-                eval_set=eval_set_map[self.version],
-                output_dir=output_dir,
-                verbose=False,
-                split_name=self.metadata['split_name'],
-            )
+        nusc_eval = NuScenesEval(
+            nusc,
+            config=self.eval_detection_configs,
+            result_path=result_path,
+            eval_set=eval_set_map[self.version],
+            output_dir=output_dir,
+            verbose=False)
         nusc_eval.main(render_curves=False)
 
         # record metrics
